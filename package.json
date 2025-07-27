@@ -1,6 +1,6 @@
 {
   "name": "@dev-team-tool/feature-switches",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to access feature-switches from dev-team-tools.com programatically",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
