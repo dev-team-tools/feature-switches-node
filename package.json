@@ -1,0 +1,39 @@
+{
+  "name": "@dev-team-tool/feature-switches",
+  "version": "1.0.0",
+  "description": "Library to access feature-switches from dev-team-tools.com programatically",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-team-tools/feature-switches-node.git"
+  },
+  "keywords": [
+    "feature-switches",
+    "dev-team-tools",
+    "developer"
+  ],
+  "author": "Harry Winser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-team-tools/feature-switches-node/issues"
+  },
+  "homepage": "https://github.com/dev-team-tools/feature-switches-node#readme",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
