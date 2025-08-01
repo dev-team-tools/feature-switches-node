@@ -1,6 +1,6 @@
 {
   "name": "@dev-team-tool/feature-switches",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Library to access feature-switches from dev-team-tools.com programatically",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -12,7 +12,8 @@
     }
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,9 @@
   },
   "homepage": "https://github.com/dev-team-tools/feature-switches-node#readme",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.0",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
   },

@@ -1,1 +1,6 @@
-console.log("hello world!");
+export { FeatureSwitchManagerImpl as FeatureSwitchManager } from "./FeatureSwitchManagerImp";
+export {
+  FeatureSwitchValue,
+  FeatureSwitchRequest,
+  FeatureSwitchContext,
+} from "./types";
