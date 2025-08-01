@@ -3,4 +3,5 @@ export {
   FeatureSwitchValue,
   FeatureSwitchRequest,
   FeatureSwitchContext,
+  FeatureSwitch,
 } from "./types";
