@@ -18,6 +18,8 @@ export interface FeatureSwitchManager {
     key: string,
     userRequest?: FeatureSwitchRequest,
   ) => Promise<boolean>;
+
+  getSwitches: (userRequest?: FeatureSwitchRequest) => Promise<FeatureSwitch[]>;
 }
 
 export interface FeatureSwitch {
