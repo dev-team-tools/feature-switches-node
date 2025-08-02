@@ -1,10 +1,11 @@
 # Feature Switches Node
 A NodeJS library for programatically accessing [dev-team-tools.com](https://www.dev-team-tools.com) feature-switches product.
 
-Further docs can be found at [docs.dev-team-tools.com/docs/feature-switches/](https://docs.dev-team-tools.com/docs/feature-switches/)
+Further docs can be found at [docs.dev-team-tools.com](https://docs.dev-team-tools.com/docs/feature-switches/)
 
 ## Installation
 - `npm -i @dev-team-tool/feature-switches`
+- >=NodeJS 20
 
 ## Configuration
 - API key (generate one on the [settings page](https://dev-team-tools.com/users/settings))
