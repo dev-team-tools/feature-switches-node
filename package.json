@@ -1,6 +1,6 @@
 {
-  "name": "@dev-team-tool/feature-switches",
-  "version": "1.2.0",
+  "name": "@dev-team-tool/feature-switches-node",
+  "version": "1.2.1",
   "description": "Library to access feature-switches from dev-team-tools.com programatically",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -26,7 +26,7 @@
     "developer"
   ],
   "author": "Harry Winser",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/dev-team-tools/feature-switches-node/issues"
   },
