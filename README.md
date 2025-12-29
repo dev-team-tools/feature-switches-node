@@ -1,18 +1,18 @@
 # Feature Switches Node
 A NodeJS library for programatically accessing [dev-team-tools.com](https://www.dev-team-tools.com) feature-switches product.
 
-Further docs can be found at [docs.dev-team-tools.com](https://docs.dev-team-tools.com/docs/feature-switches/)
+Further docs can be found at [docs.dev-team-tools.com](https://docs.dev-team-tools.com/Feature%20Switches/intro/)
 
 ## Installation
-- `npm -i @dev-team-tool/feature-switches`
-- >=NodeJS 20
+- `npm i @dev-team-tool/feature-switches-node`
+- Node version 22 or above
 
 ## Configuration
 - API key (generate one on the [settings page](https://dev-team-tools.com/users/settings))
 - A configured environment ([create / manage them here](https://dev-team-tools.com/apps/environments))
 
 ## Getting started
-Before using this library, we recommend you read the [Feature-Switches Documentation](https://docs.dev-team-tools.com/docs/feature-switches/). It'll walk you through creating your first switch, as well as managing and customing them further.
+Before using this library, we recommend you read the [Feature-Switches Documentation](https://docs.dev-team-tools.com/Feature%20Switches/intro). It'll walk you through creating your first switch, as well as managing and customing them further.
 
 To get started you need to create an instance of the `FeatureSwitchManager`:
 

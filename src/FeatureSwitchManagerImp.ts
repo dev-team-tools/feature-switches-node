@@ -28,7 +28,7 @@ export class FeatureSwitchManagerImpl implements FeatureSwitchManager {
       response = await fetch(url, {
         method: "POST",
         headers: {
-          "User-Agent": "dev-team-tools-node",
+          "User-Agent": "feature-switches-node",
           "Content-Type": "application/json",
           Authorization: this.#token,
         },
