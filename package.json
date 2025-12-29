@@ -1,6 +1,6 @@
 {
-  "name": "@dev-team-tool/feature-switches",
-  "version": "1.2.0",
+  "name": "@dev-team-tool/feature-switches-node",
+  "version": "1.2.1",
   "description": "Library to access feature-switches from dev-team-tools.com programatically",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -14,7 +14,7 @@
   "scripts": {
     "build": "tsup",
     "test": "jest",
-    "publish": "npm publish --access public"
+    "publish": "npm run build && npm publish --access public"
   },
   "repository": {
     "type": "git",
